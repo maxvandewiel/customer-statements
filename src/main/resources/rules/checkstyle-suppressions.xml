@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+    Copyright (c) 2020 Backbase. All Rights Reserved.
+    The information specified here is confidential and remains property of Backbase.
+    groupId     - nl.maxvandewiel
+    artifactId  - kalah
+    name        - kalah
+    description - Kalah service
+    2020
+
+-->
+<!DOCTYPE suppressions PUBLIC
+    "-//Puppy Crawl//DTD Suppressions 1.1//EN"
+    "http://www.puppycrawl.com/dtds/suppressions_1_1.dtd">
+
+<suppressions>
+</suppressions>

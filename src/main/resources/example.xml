@@ -1,0 +1,16 @@
+<statements>
+    <statement>
+        <transaction-reference>1</transaction-reference>
+        <account-number>NL89INGB0002105840</account-number>
+        <start-balance>6745.45</start-balance>
+        <mutation>-110.00</mutation>
+        <end-balance></end-balance>
+    </statement>
+    <statement>
+        <transaction-reference>2</transaction-reference>
+        <account-number>NL89INGB0002105840</account-number>
+        <start-balance>6445.45</start-balance>
+        <mutation>548.24</mutation>
+        <end-balance></end-balance>
+    </statement>
+</statements>

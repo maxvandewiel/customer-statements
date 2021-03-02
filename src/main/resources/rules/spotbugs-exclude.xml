@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+    Copyright (c) 2020 Backbase. All Rights Reserved.
+    The information specified here is confidential and remains property of Backbase.
+    groupId     - nl.maxvandewiel
+    artifactId  - kalah
+    name        - kalah
+    description - Kalah service
+    2020
+
+-->
+<FindBugsFilter>
+	
+	<!-- START GENERAL -->
+	
+	<!-- 
+		Reason ::  PMD rules on performance of Collections.toArray collide with Find bugs rule.
+				   toArray(new T[0]) is more efficient than toArray(new T[size]).
+				   
+		@see https://shipilev.net/blog/2016/arrays-wisdom-ancients/#_conclusion 
+		@see https://pmd.github.io/pmd-6.0.1/pmd_rules_java_performance.html#optimizabletoarraycall
+	-->
+	<Match>
+		<Bug pattern="ITA_INEFFICIENT_TO_ARRAY" />
+	</Match>
+	
+	<!-- not compatible with lombok @Slf4j annotation -->
+	<Match>
+		<Bug pattern="SLF4J_LOGGER_SHOULD_BE_NON_STATIC" />
+	</Match>
+	
+
+
+</FindBugsFilter>

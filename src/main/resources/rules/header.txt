@@ -1,0 +1,7 @@
+Copyright (c) 2020 Backbase. All Rights Reserved.
+The information specified here is confidential and remains property of Backbase.
+groupId     - ${project.groupId}
+artifactId  - ${project.artifactId}
+name        - ${project.name}
+description - ${project.description}
+2020
